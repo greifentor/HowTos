@@ -27,3 +27,8 @@ If the class member type is an interface, the spring magic will find a matching 
 For `final` class members of classes which are marked with one of the listed annotations above, will also be set to an instance of a matching class implementation.
 
 If the class member type is an interface, the spring magic will find a matching implementation for the class member. There should be one implementation marked with one of the listed annotations above only in the application.
+
+
+## List Injection
+
+It is also possible to inject a list of implementations of a generic interface. Just put an inject annotation to the list class member and annotated some of the implementations of the interface with of the listed annotations above.
