@@ -38,7 +38,7 @@ Example:
             return ErrorState.VALUE_IS_NEGATIVE;
         }
         ...
-        return ErrorState.ANTHING_ALLRIGHT_CLYDE;
+        return ErrorState.ANYTHING_ALLRIGHT_CLYDE;
     }
 ```
 
